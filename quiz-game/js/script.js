@@ -91,7 +91,7 @@ function showAnswer(){
 
 //Функция изменения фоновой картинки ????????????
 function nextImg(img){
-        document.body.style.background = 'url(../img_test' + imgs[img] + '):';
+        document.body.style.backgroundImage = 'url(img_test/' + imgs[img] + ')';
 };
 //Функция записи правильного ответа в popup
 function answerText(stage){
